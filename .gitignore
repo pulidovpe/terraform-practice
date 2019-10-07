@@ -11,7 +11,7 @@
 
 # misc
 terraform-provider*
-/.terraform
+!.terraform/* 
 /.sass-cache
 /connect.lock
 /coverage
