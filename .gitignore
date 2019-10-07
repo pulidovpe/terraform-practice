@@ -1,0 +1,35 @@
+# IDEs and editors
+*.sublime-workspace
+*.sublime-project
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+terraform-provider*
+/.terraform
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# credentials ## 
+.env
+auth.js*
+server_crt.pem
+server_key.pem
+localhost.crt
+localhost.key
+package-lock.json
