@@ -1,0 +1,6 @@
+project_name   = "tf-practice"
+environment    = "testing"  
+myregion       = "sa-east-1"
+#instance_type  = "t3.micro"
+acl            = "private"
+bucket_name    = "tf-backend-aventura-tech"
