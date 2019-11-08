@@ -10,26 +10,20 @@
 !.vscode/extensions.json
 
 # misc
-terraform-provider*
-!.terraform/* 
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
+# IDEs and editors
+*.sublime-workspace
+*.sublime-project
 
-# System Files
-.DS_Store
-Thumbs.db
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-# credentials ## 
-.env
-auth.js*
-server_crt.pem
-server_key.pem
-localhost.crt
-localhost.key
-package-lock.json
+# misc
+**/.terraform
+**/terraform.state*
+
+# credentials
+id_rsa*

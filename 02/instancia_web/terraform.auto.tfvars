@@ -1,0 +1,11 @@
+myregion      = "sa-east-1"
+#ami_id        = "ami-02c8813f1ea04d4ab"
+instance_type = "t3.micro"
+#vpc_id        = "vpc-e0615587"
+/*TF_VAR_project_name              = "tf-practice"
+TF_VAR_environment               = "testing"  
+TF_VAR_myregion                  = "sa-east-1"
+TF_VAR_key_name                  = "terraform-test-key"
+TF_VAR_acl                       = "private"
+TF_VAR_bucket_name               = "tf-backend-aventuratech"
+TF_VAR_instance_type             = "t3.micro"*/

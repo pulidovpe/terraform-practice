@@ -1,0 +1,12 @@
+TF_VAR_project_name              = "tf-practice"
+TF_VAR_environment               = "testing"  
+TF_VAR_myregion                  = "sa-east-1"
+TF_VAR_key_name                  = "terraform-test-key"
+TF_VAR_acl                       = "private"
+TF_VAR_bucket_name               = "tf-backend-aventuratech"
+TF_VAR_instance_type             = "t2.micro"
+TF_VAR_min_size                  = 0
+TF_VAR_max_size                  = 2
+TF_VAR_desired_capacity          = 0
+TF_VAR_health_check_grace_period = 300    ## 300 default
+TF_VAR_elb_health_check_interval = 30     ## 30  default
