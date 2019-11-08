@@ -1,0 +1,22 @@
+TF_VAR_project_name                 = "tf-practice"
+TF_VAR_environment                  = "testing"  
+TF_VAR_aws_region                   = "sa-east-1"
+TF_VAR_key_name                     = "terraform-test-key"
+# TF_VAR_acl                          = "private"
+# TF_VAR_bucket_name                  = "tf-backend-aventuratech"
+TF_VAR_instance_type                = "t2.micro"
+TF_VAR_min_size                     = 0
+TF_VAR_max_size                     = 0
+TF_VAR_desired_capacity             = 0
+TF_VAR_health_check_grace_period    = 300    ## 300 default
+TF_VAR_elb_health_check_interval    = 30     ## 30  default
+
+TF_VAR_ecs_task_execution_role_name = "myEcsTaskExecutionRole"
+TF_VAR_ecs_auto_scale_role_name     = "myEcsAutoScaleRole"
+TF_VAR_az_count                     = "2"
+TF_VAR_app_image                    = "bradfordhamilton/crystal_blockchain:latest"
+TF_VAR_app_port                     = 3000
+TF_VAR_app_count                    = 3
+TF_VAR_health_check_path            = "/"
+TF_VAR_fargate_cpu                  = "1024"
+TF_VAR_fargate_memory               = "2048"
