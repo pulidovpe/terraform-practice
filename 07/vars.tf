@@ -1,0 +1,12 @@
+variable "TF_VAR_region" {}
+variable "TF_VAR_project_name" {}
+variable "TF_VAR_instance_type" {}
+variable "TF_VAR_key_name" {}
+variable "TF_VAR_max_size" {}
+variable "TF_VAR_min_size" {}
+variable "TF_VAR_desired_capacity" {}
+variable "TF_VAR_vpc_cidr" {}
+variable "TF_VAR_environment" {}
+variable "TF_VAR_public_subnet_cidrs" {}
+variable "TF_VAR_private_subnet_cidrs" {}
+variable "TF_VAR_availability_zones" {}

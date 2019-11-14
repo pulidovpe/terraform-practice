@@ -1,0 +1,16 @@
+TF_VAR_project_name                     = "tf-erp-advance"
+TF_VAR_region                             = "sa-east-1"
+TF_VAR_instance_type                      = "t2.micro"
+TF_VAR_key_name                           = "terraform-test-key"
+TF_VAR_max_size                           = 2
+TF_VAR_min_size                           = 1
+TF_VAR_desired_capacity                   = 1
+TF_VAR_vpc_cidr                           = "10.0.0.0/16"
+TF_VAR_environment                        = "testing"
+TF_VAR_public_subnet_cidrs                = ["10.0.0.0/24", "10.0.1.0/24"]
+TF_VAR_private_subnet_cidrs               = ["10.0.50.0/24", "10.0.51.0/24"]
+TF_VAR_availability_zones                 = ["sa-east-1a", "sa-east-1c"]
+# TF_VAR_ecs_aws_ami                      = 
+# TF_VAR_environment                      = "acc" 
+# TF_VAR_acl                              = "private"
+# TF_VAR_bucket_name                      = "tf-backend-aventuratech"
