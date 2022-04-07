@@ -40,4 +40,6 @@ terraform destroy --auto-approve
 5. Crear una VPC y un Launch configuration.
 6. Crear un cluster ECS.
 7. Crear un cluster con registro ECR usando variables de entorno.
+8. Creación de un nuevo backend en un bucket S3
+9.
 
