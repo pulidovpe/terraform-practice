@@ -41,5 +41,10 @@ terraform destroy --auto-approve
 6. Crear un cluster ECS.
 7. Crear un cluster con registro ECR usando variables de entorno.
 8. Creación de un nuevo backend en un bucket S3
-9.
+9. Creación de varios recursos:
+	- Crear grupos de seguridad.
+	- Crear instancia EC2.
+	- Crear listener SSH en un balanceador de carga (red).
+	- Crear reglas para un listener en un balanceador de carga (aplicación).
+	- Crear grupos de destino.
 
