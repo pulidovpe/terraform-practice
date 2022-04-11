@@ -24,6 +24,7 @@
 # misc
 **/.terraform
 **/terraform.state*
+**/terraform.tfstate*
 
 # credentials
 id_rsa*
