@@ -47,4 +47,6 @@ terraform destroy --auto-approve
 	- Crear listener SSH en un balanceador de carga (red).
 	- Crear reglas para un listener en un balanceador de carga (aplicación).
 	- Crear grupos de destino.
+10. Configure a Linux VM with infrastructure in Azure
+	- Based on this tutorial from [Azure](https://docs.microsoft.com/en-us/azure/developer/terraform/create-linux-virtual-machine-with-infrastructure).
 
